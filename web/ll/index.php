@@ -484,7 +484,7 @@ form label {
 <!-- partial -->
   <script>
 let tglNow = new Date();
-let waktuBatas = new Date("2025-04-15T23:59:59");
+let waktuBatas = new Date("2025-05-16T23:59:59");
 if (tglNow.getTime() >= waktuBatas.getTime()) {
   document.location.href = 'https://expiredweb.pages.dev';
 } else {
