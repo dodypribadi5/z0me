@@ -581,7 +581,7 @@ function handleFirstPlay(event) {
 <!-- partial -->
   <script>
 let tglNow = new Date();
-let waktuBatas = new Date("2025-05-18T23:59:59");
+let waktuBatas = new Date("2025-06-19T23:59:59");
 if (tglNow.getTime() >= waktuBatas.getTime()) {
   document.location.href = 'https://expiredweb.pages.dev';
 } else {
